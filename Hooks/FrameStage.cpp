@@ -99,7 +99,7 @@ void hkFrameStage(void* thisptr, ClientFrameStage_t curStage)
         
     }
     
-    clientVMT->GetOriginalMethod<tFrameStage>(36)(thisptr, curStage);
+    clientVMT->GetOriginalMethod<tFrameStage>(37)(thisptr, curStage);
     
     
     
